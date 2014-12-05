@@ -8,6 +8,7 @@ The simple CPU example discussed here is accumulator based with a 16-bit data bu
 
 Table 1: CPU Instruction Set
   Opcode	Instruction	Comments
+  
   000	LDA	Load Accumulator
   001	STA	Store Accumulator
   010	ADD	Add addressed memory with accumulator  
