@@ -10,13 +10,21 @@ Table 1: CPU Instruction Set
   Opcode	Instruction	Comments
   
   000	LDA	Load Accumulator
+  
   001	STA	Store Accumulator
+  
   010	ADD	Add addressed memory with accumulator  
+  
   011	SUB	Subtract addressed memory from accumulator
+  
   100	JMP	Unconditional direct jump
+  
   101	JEZ	Direct jump when Acc is equal to zero
+  
   110	LDI	Load Accumulator Immediate, sign extend
+  
   111	HLT	Halt, no more fetching until a new start
+  
 
 
 
